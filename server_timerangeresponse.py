@@ -1,3 +1,10 @@
+############################################################################################################
+#This is a python flask script.                                                                            #
+#Run this using - python server_timerangeresponse.py                                                       #
+#Url to access this example for april 6th logs - http://<ip_address>:5000/date/?date=2019-04-06            #
+#This runs server_timerangeresponse.sh scripts and retunrs the contents from status.<date_timestamp> file. #
+############################################################################################################
+
 from flask import Flask
 from flask import request
 import itertools,os,subprocess
