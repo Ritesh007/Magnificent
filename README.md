@@ -1,10 +1,7 @@
 Author/Maintainer - Ritesh Kumar Reddy Kuchukulla
 
 Requirements -
-python 2/3
-pip
-python flask
-shell 'mail' module
+python 2/3, pip, python flask, shell 'mail' module.
 
 Test on - ubuntu 16.04 OS.
 
