@@ -1,5 +1,13 @@
 Author/Maintainer - Ritesh Kumar Reddy Kuchukulla
 
+Requirements -
+python 2/3
+pip
+python flask
+shell 'mail' module
+
+Test on - ubuntu 16.04 OS.
+
 Description - This repository consists of shell and python scripts that test an URL and stores the logs along with the time stamps.
 
 # server_testing.sh -(should be scheduled in background)
