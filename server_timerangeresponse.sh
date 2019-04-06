@@ -3,7 +3,7 @@
 #                                                                                    #
 #  Input parameter - date                                                            #
 #  Example to check the status on april 6th - server_timerangeresponse.sh 2019-04-06 #
-#  This scripts returns the status of magnificent url for a specific date.           #
+#  This script returns the status of magnificent url for a specific date.           #
 #                                                                                    #
 ######################################################################################
 
