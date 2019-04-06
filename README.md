@@ -11,9 +11,9 @@ Description - This repository consists of shell and python scripts that test an 
 Input parameters - url to be tested.                                                                                   
 example to test 'http://<ip_address>:12345/' - ./server_testing.sh http://<ip_address>:12345/.                         
 This scripts tests the url and stores the url response in a logfile with the timestamp and sends an email(please change the emailid in the code) to the team if the response is empty.              
-Once the script is start it enters a infinite loop and runs for every 5 seconds; so please schedule this in background.
+Once the script starts it enters a infinite loop and runs for every 5 seconds; so please schedule this in background.
 example to schedule this in background - nohup ./server_testing.sh http://<ip_address>:12345/ &.
-This stores the logs in 'status.log'.
+This stores the logs in 'status.log'. This runs for every 5 seconds in the background, we cant use cron job for this as cron can't run for every 5 seconds.
 
 # server_timerangeresponse.sh (can run this directly)
 Input parameter - date.                                                            
