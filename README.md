@@ -18,7 +18,7 @@ This stores the logs in 'status.log'. This runs for every 5 seconds in the backg
 # server_timerangeresponse.sh (can run this directly)
 Input parameter - date.                                                            
 Example to check the status on April 6th - server_timerangeresponse.sh 2019-04-06. 
-This script returns all the statuses (which were recorded for every 5 seconds using the above script) of the url for a specific date which is stored in 'status.<date_timestamp>' file.
+This script returns all the statuses (which were recorded for every 5 seconds using the above script) of the url for a specific date and stores it in 'status.<date_timestamp>' file.
 
 # server_timerangeresponse.py (runs server_timerangeresponse.sh scripts and retunrs the contents from status.<date_timestamp> file)
 This is a python flask script.
